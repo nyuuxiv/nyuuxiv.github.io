@@ -1,0 +1,39 @@
+#background{
+    background-image: url('123.png');
+    linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    width: 80%;
+    height: 9000px;
+    background-size: cover;
+    color: white;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+    
+    
+    
+    .nyuulogo{
+        width: 100px;
+        max-width: 100%;   
+    }
+    
+    .navegacao{
+        display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      float: right;
+      padding: 24px;
+      gap: 1rem;
+      font-family: 'Montserrat', sans-serif;
+    }
+    
+    .footers{
+        font-family: 'Montserrat', sans-serif;
+        color: #000000;
+        font-size: 15px;
+        opacity: 30%;
+    }
+    
+    
+    
+        

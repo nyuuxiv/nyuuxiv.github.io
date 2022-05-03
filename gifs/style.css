@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
+    
 }
 
 body{
@@ -44,17 +45,16 @@ body{
     }
 
 
-    .tudo{  
+    section{  
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(17, 25, 40, 0.75);
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
-        align-items: center;
         display: flex;
         justify-content: center;
-        height: auto% ;
-        width: auto%;
+        height: auto;
+        width: auto;
         padding: 2rem;
         grid-template-columns: 300px 1fr;
         gap: 1rem;
@@ -63,6 +63,7 @@ body{
         margin: 0 auto;
         font: 500 100%/1.5 system-ui;
         flex-direction: column;
+        
         
         
     } 
@@ -112,8 +113,6 @@ body{
     font-weight: Thin;  
     
 }
-
-
 
 .footers{
         font-family: 'Montserrat', sans-serif;

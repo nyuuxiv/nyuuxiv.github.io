@@ -54,7 +54,7 @@ body{
         display: flex;
         justify-content: center;
         height: auto;
-        width: auto;
+        width:fit-content;
         padding: 2rem;
         grid-template-columns: 300px 1fr;
         gap: 1rem;
@@ -63,6 +63,7 @@ body{
         margin: 0 auto;
         font: 500 100%/1.5 system-ui;
         flex-direction: column;
+        
         
         
         
@@ -106,12 +107,18 @@ body{
 }
 
 
+
+
 .designtexto{
     font-family: 'Source Sans Pro', sans-serif;
     color: #ffffff;
     font-size: 20px;
     font-weight: Thin;  
     
+}
+
+.gifss{
+    width:fit-content;
 }
 
 .footers{

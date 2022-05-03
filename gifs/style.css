@@ -53,8 +53,8 @@ body{
         align-items: center;
         display: flex;
         justify-content: center;
-        height: 100%;
-        width: 100%;
+        height: auto% ;
+        width: auto%;
         padding: 2rem;
         grid-template-columns: 300px 1fr;
         gap: 1rem;

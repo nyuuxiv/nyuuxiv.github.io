@@ -23,28 +23,26 @@ body{
         color:#000000
     }
 
-.navegacao{
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: center;
-      float: right;
-      padding: 24px;
-      gap: 1rem;
-      color: #FFA8CD;
-      font-family: 'Source Sans Pro', sans-serif;
-    }
+    .navegacao{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        float: right;
+        padding: 24px;
+        gap: 1rem;
+        font-family: 'Source Sans Pro', sans-serif;
+      }
     
 
-    .tudo{  
+      .tudo{  
         backdrop-filter: blur(16px) saturate(180%);
         -webkit-backdrop-filter: blur(16px) saturate(180%);
         background-color: rgba(17, 25, 40, 0.75);
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.125);
-        align-items: center;
         display: flex;
-        justify-content: center;
+        align-items: center;
         height: 100%;
         width: 100%;
         padding: 2rem;
@@ -52,23 +50,20 @@ body{
         gap: 1rem;
         align-items: center;
         max-width: 800px;
-        margin: 0 auto;
+        margin: auto;
         font: 500 100%/1.5 system-ui;
         flex-direction: column;
-        
-        
     } 
 
 
 
+    .tudodedentro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
 
-.tudodedentro{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-
-}
+    }
 
     
 .inicio{
@@ -76,6 +71,16 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
     font-size: 20px;
     font-weight: Thin;
+}
+
+.hello {
+    padding: 1%;
+    max-width: 60%;
+}
+    
+picture{
+    max-width: 30%;
+    padding: 2%;
 }
 
 #botaoprices{
@@ -116,18 +121,10 @@ body{
 
 
 
-  .companiontudo{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-}
-
-
 .companionship{
     color:#FFA8CD;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 
 .companionshiptexto{
@@ -135,22 +132,17 @@ body{
     color: #ffffff;
     font-size: 20px;
     font-weight: Thin;  
-}
-
-
-
-.gposigntudo{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 
 }
+
+
+
+
 
 .gposing{
     color:#FAE057;
     font-family: 'Montserrat', sans-serif;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 
 .gposingtexto{
@@ -158,6 +150,7 @@ body{
     color: #ffffff;
     font-size: 20px;
     font-weight: Thin;
+
 }
 
 .gifstexto{
@@ -255,19 +248,13 @@ body{
 
 
 
-.designtudo{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 
-}
 
 .graphicdesign{
     color: #CEFFA8;
     font-family: 'Montserrat', sans-serif;
     font-weight: Regular;
-    letter-spacing: 10px;
+    letter-spacing: 7px;
 }
 .designtexto{
     font-family: 'Source Sans Pro', sans-serif;
@@ -314,6 +301,31 @@ body{
         opacity: 30%;
     }
     
-    
+    @media all and (max-width: 516px) { 
+
+        .tudodedentro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #707070;
+            border-top: 1px solid #707070;
+        }
+        
+        .hello {
+            /* width: 80%; */
+            padding: 5%;
+            max-width: 80%;
+            order: 2;
+            text-align: center;
+        }
+        
+        picture {
+            max-width: 30%;
+            padding: 2%;
+            order: 1;
+        }
+        
+         }
     
         

@@ -70,13 +70,15 @@ body{
     } 
 
 
-.tudodedentro{
-    display:flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 
-}
+    
+    .tudodedentro {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+
+    }
 
     
 .gifstexto{
@@ -129,5 +131,32 @@ body{
     }
     
     
+    
+    @media all and (max-width: 516px) { 
+
+        .tudodedentro {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-bottom: 1px solid #707070;
+            border-top: 1px solid #707070;
+        }
+        
+        .hello {
+            /* width: 80%; */
+            padding: 5%;
+            max-width: 80%;
+            order: 2;
+            text-align: center;
+        }
+        
+        picture {
+            max-width: 30%;
+            padding: 2%;
+            order: 1;
+        }
+        
+         }
     
         
